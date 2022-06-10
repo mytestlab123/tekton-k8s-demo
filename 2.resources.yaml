@@ -9,7 +9,8 @@ spec:
   type: git
   params:
     - name: url
-      value: git@github.com:vikas027/tekton-k8s-demo.git
+      value: git@github.com:mytestlab123/tekton-k8s-demo.git
+      #value: git@github.com:vikas027/tekton-k8s-demo.git
     - name: revision
       value: docker
     - name: provider
@@ -26,4 +27,5 @@ spec:
   type: image
   params:
     - name: url
-      value: docker.io/vikas027/tekton-demo-terraform
+      value: docker.io/amitkarpe/tekton-demo-terraform
+      #value: docker.io/vikas027/tekton-demo-terraform
